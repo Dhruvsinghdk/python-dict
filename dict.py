@@ -1,13 +1,10 @@
-a = {
-    "Name" : ("Roman","reings"),
-    "Age" : 26,
-    "Class" : 10,
-    "subject" : {
-        "php" : "Rajesh",
-        "Java" : "ram",
-        "Python" : "Ronit"
+abc = {
+    "Name":"Rohit",
+    "Age":(1,2,3),
+    "Marks":{
+        "phy":90,
+        "Chem":99
     }
-};
-
-
-print(a["subject"])
+}
+abc["Age"] = "2";
+print(abc)
