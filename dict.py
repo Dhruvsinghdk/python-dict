@@ -6,5 +6,5 @@ abc = {
         "Chem":99
     }
 }
-abc["Age"] = "2";
+abc["Age"] = "2"
 print(abc)
